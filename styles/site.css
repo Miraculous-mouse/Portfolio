@@ -1,0 +1,250 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(236, 250, 255);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h1{
+    color:rgb(43, 34, 142);
+    font-size: 50px;
+}
+h2{
+    color:black;
+    margin: 20px;
+    font-size:30px;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* border-left:6px solid #a0b7f3; */
+    font-size: 20px;
+    line-height:135%;
+}
+
+a{
+    color:black;
+    background-color: aliceblue;
+}
+
+.below{
+    font-size: 18pt;
+    margin:30px;
+}
+
+strong{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 16pt;
+    background-color: rgb(224, 215, 249);
+}
+
+dl dt{
+    font-weight: bold;
+}
+
+picture img{
+    border-radius: 20px;
+}
+nav{
+    background-color: rgb(184, 239, 250);
+    padding: 5px;
+    margin:10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+nav ul{
+    display:flex;
+    flex-direction: row;
+    flex-grow: 2;
+    justify-content: flex-end;
+    padding:0px;
+    margin:0px;
+}
+
+nav ul li{
+    margin-right: 20px;
+    list-style: none;
+    padding:10px;
+}
+
+li a{
+    font-size: 18pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    background-color: rgb(184, 239, 250);
+}
+
+nav li a:hover{
+    color:rgb(184, 239, 250);
+    background-color: #f0bcd9;
+}
+
+
+
+
+.overview{
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 50pt;
+    padding-top: 15px;
+    padding-bottom: 10pt;
+}
+
+.overview li{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+.intro{
+    display:flex;
+    flex-direction: row;
+    background-color: #c1ecef;
+    border-radius: 10px;
+    margin-bottom: 50pt;
+
+}
+
+.picMe{
+    width:90%;
+
+}
+
+.intro picture{
+    width: 40%;
+    padding: 15px;
+}
+
+.intro p{
+    width: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 17pt;
+    padding:10px;
+    padding-right:15px;
+}
+
+.hor{
+    display:flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding-bottom: 10pt;
+}
+
+.pic{
+    width:90%;
+    padding: 10px;
+}
+
+.hor picture{
+    width:50%;
+}
+
+
+.vir{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 20px;
+}
+
+.vir2{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    font-size: 20px;
+}
+.vir2 p{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.me2{
+    border-radius: 100pt;
+    margin-top:20px;
+}
+
+.hor2{
+    display:flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.hor2 div{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(247, 251, 243);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15px;
+    width:30%
+}
+
+.hor2 div p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.vir a{
+    background-color: #c9d6f6;
+    color: #353a72;
+    padding:25px;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: bold;
+    width:50%;
+    text-align: center;
+}
+
+.out{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left:15px;
+    margin:50pt;
+}
+
+.contact{
+    display: flex;
+    flex-grow: 2;
+    background-color: rgb(221, 255, 196);
+    border-radius: 10px;
+    margin-top: 50pt;
+    margin-bottom: 30px;
+
+}
+
+.exp{
+    background-color: rgb(250, 250, 250);
+    margin:25px;
+    padding: 10px;
+    padding-left: 25px;
+    border-radius: 10px;
+    border-left: transparent;
+}
+
+.exp dl dt{
+    margin-top: 10px;
+}
+.exp dl dd{
+    margin-top: 10px;
+}
+.exp ul li{
+    margin-top: 10px;
+}
+
+.text-white{
+    background-color: white;
+    padding: 10px;
+
+    border-radius: 10px;
+}
+
+.titles{
+    background-color: rgb(247, 251, 243);
+    text-align: center;
+    padding-top: 10px;
+}
